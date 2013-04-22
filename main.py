@@ -45,7 +45,6 @@ class PyPad:
                 self.window.set_title("PyPad " + VERSION)
                 self.window.set_size_request(900,600)
                 self.window.set_position(gtk.WIN_POS_CENTER)
-                self.window.set_icon_from_file('icon.png')
                 self.window.connect("delete-event", self.on_quit)
                 self.window.connect('key-press-event', self.on_keypress)
                 self.window.show_all()

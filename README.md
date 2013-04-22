@@ -1,20 +1,28 @@
-A First Level Header
+LivelyPy
 ====================
+LivelyPy is a python text editor prototype to an auto-compile editor.
 
-A Second Level Header
+## Requirements:
++ gtksourceview2
+
+Basic Usage
 ---------------------
+## Running:
+> python main.py
 
-Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.
+## Commands
 
-The quick brown fox jumped over the lazy
-dog's back.
+### File Operations
++ New => Ctrl + N
++ Close => Ctrl + W
++ Save => Ctrl + S
++ Open => Ctrl + O
 
-### Header 3
+### Autocomplete
++ Select => Alt + Enter
++ Move Up => Alt + Up
++ Move Down => Alt + Down
 
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> ## This is an H2 in a blockquote
+### Evaluate
+Evaluate selected text or cursor location
++ Ctrl + E
