@@ -10,7 +10,7 @@ class PyEditor(gtksourceview2.View):
         self.page = page
         # Random vars
         self.changed = False
-        errpng = gtk.gdk.pixbuf_new_from_file('../error.png')
+        errpng = gtk.gdk.pixbuf_new_from_file('error.png')
 
         #set buffer with python syntax
         self.buf = gtksourceview2.Buffer()
