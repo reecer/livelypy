@@ -2,6 +2,8 @@ LivelyPy
 ====================
 LivelyPy is a python text editor prototype to an auto-compile editor.
 
+![Alt text](sample.png)
+
 ## Requirements:
 + gtksourceview2
 
